@@ -11,7 +11,7 @@ function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial' }}>
       <Input value={input} onChange={(e) => setInput(e.target.value)} />
-      <Button text="Gửi" />
+      <Button text="Gửi" input = {input} />
     </div>
   );
 }
