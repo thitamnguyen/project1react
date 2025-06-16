@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Button({ text }) {
+function Button({ text,input }) {
+  const handleClick = () => {
+    alert(`Bạn đã nhập: ${input}`);
+  };
   return (
     <button
-     
+     onClick={handleClick}
       style={{
         padding: '8px 16px',
         fontSize: '16px',
