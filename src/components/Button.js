@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Button({ text, onClick }) {
+function Button({ text }) {
   return (
     <button
-      onClick={onClick}
+     
       style={{
         padding: '8px 16px',
         fontSize: '16px',
