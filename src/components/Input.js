@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Input({ value, onChange, placeholder = "Nhập gì đó..." }) {
+function Input({ value, onChange, placeholder = "Nhập gì đó đi haha" }) {
   return (
     <input
       type="text"
